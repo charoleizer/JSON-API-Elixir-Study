@@ -6,7 +6,7 @@ defmodule ProjectManagementExample.Management.Project do
   schema "projects" do
     field :description, :string
     field :title, :string
-
+    
     timestamps()
   end
 
